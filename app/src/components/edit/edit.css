@@ -1,0 +1,38 @@
+.edit {
+  display: flex;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  background-color: white;
+  height: 60px;
+}
+
+.edit__toolbar {
+
+}
+
+.edit__input-container {
+  display: flex;
+  align-items: center;
+  padding: 0 1.2em;
+  flex: 1;
+}
+
+.edit__input {
+  border-radius: 25px;
+  flex: 1;
+  background-color: #f1f0f0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.edit__input > input {
+  flex: 1;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.edit__send {
+  padding-right: 1em;
+}

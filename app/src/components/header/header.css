@@ -1,0 +1,39 @@
+.header {
+  align-items: center;
+  border-bottom: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .10);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0.4em 0.2em;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.header__left {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__logo {
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+}
+
+.header__text_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.header__subtitle {
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, .40);
+}

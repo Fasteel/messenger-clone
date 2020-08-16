@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.app {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-device-width : 640px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
